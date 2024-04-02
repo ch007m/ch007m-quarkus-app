@@ -1,0 +1,18 @@
+app:
+  name: ch007m-quarkus-app
+  namespace: cmoullia
+  virtualMachineName: quarkus-dev
+  virtualMachineNamespace: cmoullia
+  cluster:    #
+
+git:
+  branch: main
+  repo: github.com
+  org: ch007m
+  name: ch007m-quarkus-app
+
+image:
+  url: quay.io/ch007m/my-quarkus
+  registry:  # NOT USED
+  organization:  # NOT USED
+  name:  # NOT USED
